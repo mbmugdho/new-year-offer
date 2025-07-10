@@ -1,0 +1,224 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* typography */
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+}
+
+main{
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+/* Header style */
+.hero-header{
+  background-image: url(../styles/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin: 50px 140px 0 140px;
+  height: 600px;
+  max-width: 100%;
+}
+
+.header-content{
+text-align: center;
+margin: 177px 344px;
+color: #FFFFFF;
+}
+
+.p1{
+  font-size: 32px;
+  font-weight: normal;
+  margin-bottom: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+.p2{
+ font-size: 72px;
+ font-weight: 800;
+ margin-top: 16px;
+ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+ }
+
+
+ body{
+  background-color: #FFFFFF;
+ }
+
+ /* 65% OFF */
+.percentage{
+  width: 803px;
+  height: 500px;
+  padding-bottom: 280px;
+  margin: 0 auto;
+  
+}
+
+.percentage .catagories{
+  text-align: center;
+}
+.off{
+  font-size: 88px;
+  font-weight: bold;
+  color: #FF0000;
+  margin-top: 120px;
+  margin-bottom: 25px;
+}
+.cont1{
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF0000;
+  margin: 0 auto;
+}
+.cont2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #070211;
+  margin: 0 auto;
+}
+
+
+/* Midnight party section */
+
+
+.party{
+  background-image: url(../styles/Vectorrr.png);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin: 50px 140px 0 140px;
+  height: 482px;
+  max-width: 90%;
+  padding-top: 100px;
+}
+
+.party-content{
+ text-align: left;
+ margin: 0 auto;
+ padding: 126px 552px 298px 126px;
+}
+
+.Welcome{
+  font-size: 64px;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-left: 0;
+}
+
+.cont{
+  font-size: 18px;
+  font-weight: normal;
+  color: #FFFFFF;
+  margin-top: 0;
+}
+
+.btn{
+  background-color: rgb(131, 221, 224);
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.btn:hover{
+  background-color: black;
+}
+
+/* Venue Section */
+.venue-section{
+  background-color: #e483c4;
+  background: linear-gradient(to bottom, #fd6c6c, #fff);
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin: 50px 140px 0 140px;
+  height: 482px;
+  max-width: 90%;
+  padding-top: 100px;
+}
+
+.event-content{
+ text-align: center;
+}
+.event-detail{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.detail-prefix{
+  color: #FF0000;
+}
+
+.button-container{
+  margin-top: 20px;
+}
+
+/* New Offer section */
+
+.new-offer{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 130px;
+  height: 600px;
+}
+
+.offer h5{
+  font-size: 24px;
+  font-weight: 600;
+  color: #ff0000;
+}
+
+.offer h2{
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  margin-top: 16px;
+  margin-bottom: 22px;
+}
+
+.offer p{
+  font-size: 20px;
+  color: rgba(1, 2, 17, 0.6);
+  line-height: 32px; 
+}
+
+.offer-img{
+  border: 10px solid #ff0000;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.offer-date{
+  margin-left: 13px;
+}
+.offer-date h2{
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff0000;
+  margin-bottom: 16px;
+}
+
+.offer-date p{
+  font-size: 20px;
+  color: rgba(1, 2, 17, 0.6);
+  line-height: 32px;
+  margin-bottom: 45px;
+}
+
+
+
