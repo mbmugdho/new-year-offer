@@ -258,3 +258,33 @@ color: #FFFFFF;
   align-items: center;
   margin-bottom: 100px;
 }
+
+/* gifts section */
+.gift{
+  margin-top: 120px;
+}
+
+.best-gift{
+  margin-bottom: 50px;
+}
+.gift-title{
+  font-size: 24px;
+  font-weight: 400;
+  color: #FF0000;
+}
+
+.gift-main-title{
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.gift-description{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.best-gift-img{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
